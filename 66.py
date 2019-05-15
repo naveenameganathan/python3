@@ -1,4 +1,4 @@
-nunum1,num2,num3=input().split()
+num1,num2,num3=input().split()
 n1=int(num1)
 n2=int(num2)
 n3=int(num3)
