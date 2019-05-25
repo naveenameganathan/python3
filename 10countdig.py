@@ -1,6 +1,6 @@
-z=int(input())
+number=int(input())
 count=0
-while(z>0):
+while(number>0):
     count=count+1
-    z=z//10
+    number=number//10
 print(count)
