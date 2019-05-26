@@ -1,11 +1,11 @@
-a=int(input())
-b=int(input())
-for i in range(a,b+1):
+start=int(input())
+end=int(input())
+for num in range(start,end+1):
     sum=0
-    temp=i
+    temp=num
     while(temp>0):
        digit=temp%10
        sum += digit**3
        temp //= 10
-    if(i==sum):
-        print(i)
+    if(num==sum):
+        print(num)
