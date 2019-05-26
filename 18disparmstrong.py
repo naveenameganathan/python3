@@ -7,5 +7,5 @@ for num in range(a,b):
        digit=temp%10
        sum=sum+digit**3
        temp=temp//10
-    if(sum==num):
-        print(num)
+       if(sum==num):
+           print(num)
