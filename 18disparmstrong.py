@@ -1,8 +1,8 @@
 a=int(input())
 b=int(input())
 for num in range(a,b):
-    sum=0
     temp=num
+    sum=0
     while(temp>0):
        digit=temp%10
        sum=sum+digit**3
