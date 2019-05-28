@@ -1,9 +1,11 @@
-a=int(input())
-listvalue=list(map(int(input().split())))
-c=0
-for i in listvalue:
-    if listvalue.count(i)>1:
-        print(i)
-        break
-else:
+number=int(input())
+l=list(map(int,input().split()))
+d=[]
+for j in l:
+    if l.count(j)>1:
+        d.append(j)
+c=set(d)
+if len(c)==0:
     print("unique")
+else:
+    print(*c)
