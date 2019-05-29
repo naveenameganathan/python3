@@ -1,2 +1,2 @@
-p=str(input())
-print(p)
+z=str(input())
+print(z)
