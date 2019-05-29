@@ -1,0 +1,5 @@
+num=input()
+p=input().split()
+q=sorted(p)
+print(q[0],end=" ")
+print(q[-1],end=" ")
