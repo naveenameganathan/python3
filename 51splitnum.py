@@ -1,4 +1,5 @@
 p=(input())
-print(p[0],end=" ")
-print(p[1],end=" ")
-print(p[2],end=" ")
+q=len(p)
+for j in range(0,q-1):
+    print(p[j],end=" ")
+print(p[q-1])
