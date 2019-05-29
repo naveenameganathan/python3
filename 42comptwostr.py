@@ -1,5 +1,7 @@
 p,q=input().split()
-if(len(p) >= len(q)):
-    print(p)
-else:
+if p>q:
     print(q)
+elif p>q:
+     print(p)
+else:
+     print(q)    
