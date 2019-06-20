@@ -8,7 +8,7 @@ while(len(q)!=0):
         q.remove(max(q))
         q.remove(min(q))
    else:
-       r.append(max(a))
-       q.remove(max(a))
+       r.append(max(q))
+       q.remove(max(q))
 for i in r:
      print(i,end=" ")   
