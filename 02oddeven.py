@@ -1,5 +1,5 @@
-a=int(input())
-if(a%2==0):
-	    print("Even")
+a = int(input())
+if not a % 2:
+    print("Even")
 else:
-	    print("Odd")
+    print("Odd")
